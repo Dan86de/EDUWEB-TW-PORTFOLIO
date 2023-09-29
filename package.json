@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "pnpx prettier —write **/*.html",
+    "tailwind": "pnpx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.4"
+  }
+}

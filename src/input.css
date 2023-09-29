@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-radial-gradient {
+  background-image: radial-gradient(transparent, #070707);
+}
